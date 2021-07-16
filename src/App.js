@@ -4,7 +4,7 @@ import ClassComponents from './ClassComponents'
 import FunctionComponent from './FunctionComponent'
 import Props from './Props'
 import State from './State'
-
+import HideAndShow from './HideAndShow'
 function App() {
 
 
@@ -15,7 +15,8 @@ function App() {
         {/* <ClassComponents /> */}
         {/* <FunctionComponent text="i am happy" /> */}
         {/* <Props text={{name: 'ankit'}} /> */}
-        <State />
+        {/* <State /> */}
+        <HideAndShow />
 
     </div>
 
