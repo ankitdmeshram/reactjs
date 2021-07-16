@@ -15,7 +15,6 @@ function App() {
         {/* <ClassComponents /> */}
         {/* <FunctionComponent text="i am happy" /> */}
         {/* <Props text={{name: 'ankit'}} /> */}
- 
         <State />
 
     </div>
