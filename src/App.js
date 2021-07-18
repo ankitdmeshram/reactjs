@@ -6,6 +6,7 @@ import Props from './Props'
 import State from './State'
 import HideAndShow from './HideAndShow'
 import EventHandling from './EventHandling';
+import StateFunctionalComponent from './StateFunctionalComponent';
 function App() {
 
 
@@ -19,7 +20,9 @@ function App() {
         {/* <State /> */}
         {/* <HideAndShow /> */}
 
-        <EventHandling />
+        {/* <EventHandling /> */}
+
+        <StateFunctionalComponent />
 
 
     </div>
