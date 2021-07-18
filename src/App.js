@@ -9,25 +9,30 @@ import HideAndShow from './HideAndShow'
 import EventHandling from './EventHandling';
 import StateFunctionalComponent from './StateFunctionalComponent';
 import PropsFunctitonalComponent from './PropsFunctitonalComponent';
+import GetInputBoxValue from './GetInputBoxValue';
 function App() {
 
-  const [name, setName] = useState("Ankit");
+  // const [name, setName] = useState("Ankit");
 
   return (
     <div className="App">
 
         {/* <ClassComponents /> */}
         {/* <FunctionComponent text="i am happy" /> */}
-        {/* <Props text={{name: 'ankit'}} /> */}
+     
+        {/* <Props name='ankit'/> */}
+     
         {/* <State /> */}
         {/* <HideAndShow /> */}
 
         {/* <EventHandling /> */}
 
         {/* <StateFunctionalComponent /> */}
-        <PropsFunctitonalComponent name={name} />
-          <button onClick={() => setName("karan")} >Update Name</button>
+        {/* <PropsFunctitonalComponent name={name} />
+          <button onClick={() => setName("karan")} >Update Name</button> */}
         {/* <PropsFunctitonalComponent  name="ankit" email="ankitdm69@gmail.com" other={{address: 'mumbai', mobile: '24234'}} /> */}
+
+          <GetInputBoxValue />
 
     </div>
 
