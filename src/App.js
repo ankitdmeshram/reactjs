@@ -5,6 +5,7 @@ import FunctionComponent from './FunctionComponent'
 import Props from './Props'
 import State from './State'
 import HideAndShow from './HideAndShow'
+import EventHandling from './EventHandling';
 function App() {
 
 
@@ -16,7 +17,10 @@ function App() {
         {/* <FunctionComponent text="i am happy" /> */}
         {/* <Props text={{name: 'ankit'}} /> */}
         {/* <State /> */}
-        <HideAndShow />
+        {/* <HideAndShow /> */}
+
+        <EventHandling />
+
 
     </div>
 
