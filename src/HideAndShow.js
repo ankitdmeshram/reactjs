@@ -13,16 +13,13 @@ export default class HideAndShow extends React.Component {
     render() {
         return (
             <div>
-
                 {
                     this.state.show ? 
                     <h1>Hide and Show</h1>
                     : null
                 }
-
                 {/* <button onClick={() => {this.setState({show:false})}} >Click Me</button> */}
                 <button onClick={() => {this.setState({show: !this.state.show})}} >Toggle Me</button>
-            
             </div>
         )
     }

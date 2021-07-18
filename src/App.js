@@ -10,6 +10,7 @@ import EventHandling from './EventHandling';
 import StateFunctionalComponent from './StateFunctionalComponent';
 import PropsFunctitonalComponent from './PropsFunctitonalComponent';
 import GetInputBoxValue from './GetInputBoxValue';
+import Toggle from './Toggle';
 function App() {
 
   // const [name, setName] = useState("Ankit");
@@ -32,7 +33,9 @@ function App() {
           <button onClick={() => setName("karan")} >Update Name</button> */}
         {/* <PropsFunctitonalComponent  name="ankit" email="ankitdm69@gmail.com" other={{address: 'mumbai', mobile: '24234'}} /> */}
 
-          <GetInputBoxValue />
+          {/* <GetInputBoxValue /> */}
+
+          <Toggle />
 
     </div>
 
