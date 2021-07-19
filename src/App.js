@@ -12,6 +12,7 @@ import PropsFunctitonalComponent from './PropsFunctitonalComponent';
 import GetInputBoxValue from './GetInputBoxValue';
 import Toggle from './Toggle';
 import FormHandling from './FormHandling';
+import ConditionalRendering from './ConditionalRendering';
 function App() {
 
   // const [name, setName] = useState("Ankit");
@@ -32,8 +33,8 @@ function App() {
       {/* <GetInputBoxValue /> */}
       {/* <Toggle /> */}
 
-        <FormHandling />
-
+        {/* <FormHandling /> */}
+      <ConditionalRendering />
     </div>
 
 
