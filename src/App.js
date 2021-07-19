@@ -14,9 +14,16 @@ import Toggle from './Toggle';
 import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
 import FormValidationBasic from './FormValidationBasic';
+import PassFunctionAsProps from './PassFunctionAsProps';
 function App() {
 
   // const [name, setName] = useState("Ankit");
+
+  function getData()
+  {
+      alert("Hello from app")
+  }
+
 
   return (
     <div className="App">
@@ -36,7 +43,14 @@ function App() {
 
         {/* <FormHandling /> */}
       {/* <ConditionalRendering /> */}
-      <FormValidationBasic />
+      {/* <FormValidationBasic /> */}
+
+    
+
+      <PassFunctionAsProps data={getData} />
+
+
+
     </div>
 
 
