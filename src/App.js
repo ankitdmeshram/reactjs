@@ -13,6 +13,7 @@ import GetInputBoxValue from './GetInputBoxValue';
 import Toggle from './Toggle';
 import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
+import FormValidationBasic from './FormValidationBasic';
 function App() {
 
   // const [name, setName] = useState("Ankit");
@@ -34,7 +35,8 @@ function App() {
       {/* <Toggle /> */}
 
         {/* <FormHandling /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <FormValidationBasic />
     </div>
 
 
