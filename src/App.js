@@ -15,6 +15,7 @@ import FormHandling from './FormHandling';
 import ConditionalRendering from './ConditionalRendering';
 import FormValidationBasic from './FormValidationBasic';
 import PassFunctionAsProps from './PassFunctionAsProps';
+import Contructor from './Contructor';
 function App() {
 
   // const [name, setName] = useState("Ankit");
@@ -44,12 +45,9 @@ function App() {
         {/* <FormHandling /> */}
       {/* <ConditionalRendering /> */}
       {/* <FormValidationBasic /> */}
+      {/* <PassFunctionAsProps data={getData} /> */}
 
-    
-
-      <PassFunctionAsProps data={getData} />
-
-
+      <Contructor />
 
     </div>
 
